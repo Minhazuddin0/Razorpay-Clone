@@ -516,7 +516,7 @@
             <!-- button and hyperlink -->
             <div class="flex flex-row items-center space-x-4 w-full ">
               <button
-                class="relative bg-blue-500 flex items-center justify-start text-white py-[14px] px-[18px] md:pr-[90px] rounded-md font-bold hover:bg-blue-500 transition-all duration-200">Sign
+                class="relative bg-blue-500 flex items-center justify-start text-white py-[14px] px-[18px] md:pr-[90px] rounded-md font-bold hover:bg-blue-900 transition-all duration-200">Sign
                 up 
 
                 <div class="w-12 h-[60px] bg-green-400 absolute right-6 skew-x-[20deg] flex justify-center items-center" ><p class="w-20 -skew-x-[20deg]">&#8594</p></div>
@@ -665,11 +665,11 @@
           <p class="text-white text-xl">Check out the live demo to learn how RazorpayX works. <span class="font-bold "> No-Signup required!</span></p>
 
           <button
-                class="relative bg-blue-500 flex items-center justify-start text-white py-[14px] px-[18px] md:pr-[90px] rounded-md font-bold hover:bg-blue-500 transition-all duration-200">Check out the demo 
+                class="relative bg-blue-500 flex items-center justify-start text-white py-[14px] px-[18px] md:pr-[90px] rounded-md font-bold  hover:bg-blue-900 transition-all duration-200">Check out the demo 
 
                 <div class="w-12 h-[60px] bg-green-400 absolute right-6 skew-x-[20deg] flex justify-center items-center" ><p class="w-20 -skew-x-[20deg]">&#8594</p></div>
                 
-              </button>
+          </button>
         </div>
 
 
@@ -941,42 +941,78 @@
       
 
       <!-- left button -->
-       <button>
-        <div>
+       <button class="w-[100px] h-[100px] bg-[#f4f8ff] rounded-full absolute left-0 top-1/2 
+       flex justify-center items-center cursor-pointer ">
+
+        <div class="w-[65%] h-[65%] bg-[#f4f8ff] rounded-full flex justify-center items-center
+        mix-blend-multiply">
+
           <i 
-          class="fa-solid fa-chevron-right stroke-[5px] w-6 h-6 md:h-10 text-gray-600 text-3xl">
+          class="fa-solid fa-chevron-right stroke-[5px] text-4xl text-gray-600  rotate-180">
         </i>
+
         </div>
        </button>
 
        <!-- right button -->
-       <button>
-        <div>
-          <i class="fa-solid fa-chevron-right stroke-[5px] w-6 h-6 md:h-10 text-gray-600 text-3xl"></i>
+       <button class="w-[100px] h-[100px] bg-[#f4f8ff] rounded-full absolute right-0 top-1/2 
+       flex justify-center items-center cursor-pointer ">
+
+        <div class="w-[65%] h-[65%] bg-[#f4f8ff] rounded-full flex justify-center items-center
+        mix-blend-multiply">
+
+          <i 
+          class="fa-solid fa-chevron-right stroke-[5px] text-gray-600 text-4xl">
+        </i>
+
         </div>
        </button>
 
        <!-- main content -->
 
-       <div>
+       <div class="flex flex-row max-w-[960px] items-center mx-auto my-20 space-x-[10rem]">
         <!-- left part -->
-        <img src="/images/testimonial.jpg" alt="">
+        <img src="/images/testimonial.jpg" alt=""
+        loading="lazy"
+        class="h-[320px] w-[320px] rounded-md">
 
         <!-- right part -->
-         <div>
-          <img src="/images/quotes.svg" alt="">
-          <p>Readymade Closed Wallet Solution For Quick Refunds</p>
-          <a href="">Learn more </a>
-          <h3>Lorem Ipsum</h3>
-          <p>CEO, XYZ Engineering Company</p>
-          <img src="/images/fake-company-logo.png" alt="">
+         <div class="max-w-[400px] ">
+
+          <img src="/images/quotes.svg" alt=""
+          class="w-[35px] h-[40px] mb-2 ">
+
+          <p class="text-3xl font-extralight">Readymade Closed Wallet Solution For Quick Refunds</p>
+
+          <a href="" class="text-gray-600 italic underline">Learn more </a>
+
+          <h3 class="font-extrabold text-2xl">Lorem Ipsum</h3>
+
+          <p class="font-medium">CEO, XYZ Engineering Company</p>
+
+          <img src="/images/fake-company-logo.png" alt="" width="80px " height="40px">
          </div>
        </div>
 
        <!-- six dot div  -->
 
-       <div>
-        <div></div>
+       <div class="flex flex-row mx-auto space-x-2 justify-center">
+        <!-- dot 1 -->
+        <div class="h-[10px] w-[10px] bg-gray-300 rounded-full"></div>
+        <!-- dot 2 -->
+        <div class="h-[10px] w-[10px] bg-blue-500 rounded-full scale-120"></div>
+        <!-- dot 3 -->
+        <div class="h-[10px] w-[10px] bg-gray-300 rounded-full"></div>
+        <!-- dot 4 -->
+        <div class="h-[10px] w-[10px] bg-gray-300 rounded-full"></div>
+        <!-- dot 5 -->
+        <div class="h-[10px] w-[10px] bg-gray-300 rounded-full"></div>
+        <!-- dot 6 -->
+        <div class="h-[10px] w-[10px] bg-gray-300 rounded-full"></div>
+
+
+
+
        </div>
 
 
