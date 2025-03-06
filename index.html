@@ -21,6 +21,10 @@
 
     }
 
+    .ctasection{
+      background-size: 100% 100%;
+    }
+
     .companylist {
       animation: 10s infinite linear movecompany;
     }
@@ -1028,17 +1032,21 @@
 
     <!-- CTA -->
 
-    <section class="w-full h-full bg-no-repeat bg-cover relative bg-[url(/images/CTABg.svg)]">
+    <section class="w-full h-full bg-no-repeat bg-cover relative 
+    bg-[url(/images/CTABg.svg)] ctasection min-h-[530px]">
 
-      <div class="w-11/12 max-w-[1080px] relative flex-row items-center justify-between space-x-20 mx-auto   ">
+      <!-- main content box -->
+
+      <div class="w-11/12 max-w-[1080px] relative flex flex-row items-center justify-between space-x-20 mx-auto pt-20">
         <!-- left part -->
-        <div>
+
+        <div class="flex flex-col gap-4 mt-12 max-w-[600px]">
           
           <h2 class="font-bold text-2xl text-white ">Supercharge your business with Razorpay</h2>
-          <div class="w-6 h-1 bg-green-400 mt-4 mb-4"></div>
+          <div class="w-6 h-1 bg-green-400 my-2"></div>
           <p class="text-white ">Sign up now to experience the future of payments and offer <br> your customers the best checkout experience.</p>
 
-          <ul class="flex flex-row gap-2 space-y-2 text-white">
+          <ul class="flex flex-row flex-wrap gap-x-11 text-white gap-y-5">
             <li> <p class="inline-block">&#10004;</p>
 
               <span>Quick Onboarding</span></li>
@@ -1056,18 +1064,19 @@
               <span>24x7 support</span></li>
           </ul>
 
-          <button>Sign up</button>
+          <button class="min-w-[32px] text-sm font-bold bg-white text-blue-500 border flex rounded-sm items-center  hover:text-blue-900 transition-all duration-200 py-3 px-4 gap-3 place-self-start">
+            Sign up 
+            
+            <i class="fa-solid fa-arrow-right "></i>
+          
+          </button>
 
-          <div>
-            <!-- right side -->
-
-          <img src="/images/ctaImg.svg" alt="">
-          </div>
-
+          
           
         </div>
 
-
+        <!-- right side -->
+        <img src="/images/ctaImg.svg" alt="" class="h-[282px] w-[240px] mt-10 pt-2">
 
       </div>
     </section>
