@@ -60,54 +60,54 @@
           <img src="/images/logo.svg" width="125px" height="30px" />
         </a>
 
-        <ul class="flex gap-8">
-          <li class="text-white py-7 hover:text-blue-500 cursor-pointer transition-all duration-200 relative group">
+        <ul class="flex gap-8 ">
+          <li class="text-white py-7 hover:text-blue-500 cursor-pointer transition-all duration-200 relative group hidden lg:block">
             <a href="#">Payment</a>
-            <div class="absolute bottom-0 w-full h-1 bg-blue-500 hidden group-hover:block transition-all duration-200">
+            <div class="absolute bottom-0 w-full h-1 bg-blue-500 hidden group-hover:block transition-all duration-200 ">
             </div>
           </li>
 
-          <li class="text-white py-7 hover:text-blue-500 cursor-pointer transition-all duration-200 relative group">
+          <li class="text-white py-7 hover:text-blue-500 cursor-pointer transition-all duration-200 relative group hidden lg:block">
             <a href="#">Banking</a>
-            <div class="absolute bottom-0 w-full h-1 bg-blue-500 hidden group-hover:block transition-all duration-200">
+            <div class="absolute bottom-0 w-full h-1 bg-blue-500 hidden group-hover:block transition-all duration-200 ">
             </div>
           </li>
 
-          <li class="text-white py-7 hover:text-blue-500 cursor-pointer transition-all duration-200 relative group">
+          <li class="text-white py-7 hover:text-blue-500 cursor-pointer transition-all duration-200 relative group hidden lg:block">
             <a href="#">Corporate Card</a>
           </li>
 
-          <li class="text-white py-7 hover:text-blue-500 cursor-pointer transition-all duration-200 relative group">
+          <li class="text-white py-7 hover:text-blue-500 cursor-pointer transition-all duration-200 relative group hidden lg:block">
             <a href="#">Payroll</a>
           </li>
 
-          <li class="text-white py-7 hover:text-blue-500 cursor-pointer transition-all duration-200 relative group">
+          <li class="text-white py-7 hover:text-blue-500 cursor-pointer transition-all duration-200 relative group hidden lg:block">
             <a href="#">Resources</a>
-            <div class="absolute bottom-0 w-full h-1 bg-blue-500 hidden group-hover:block transition-all duration-200">
+            <div class="absolute bottom-0 w-full h-1 bg-blue-500 hidden group-hover:block transition-all duration-200 ">
             </div>
           </li>
 
-          <li class="text-white py-7 hover:text-blue-500 cursor-pointer transition-all duration-200 relative group">
+          <li class="text-white py-7 hover:text-blue-500 cursor-pointer transition-all duration-200 relative group hidden lg:block">
             <a href="#">Support</a>
-            <div class="absolute bottom-0 w-full h-1 bg-blue-500 hidden group-hover:block transition-all duration-200">
+            <div class="absolute bottom-0 w-full h-1 bg-blue-500 hidden group-hover:block transition-all duration-200 ">
             </div>
           </li>
 
-          <li class="text-white py-7 hover:text-blue-500 cursor-pointer transition-all duration-200 relative group">
+          <li class="text-white py-7 hover:text-blue-500 cursor-pointer transition-all duration-200 relative group hidden lg:block">
             <a href="#">Pricing</a>
-            <div class="absolute bottom-0 w-full h-1 bg-blue-500 hidden group-hover:block transition-all duration-200">
+            <div class="absolute bottom-0 w-full h-1 bg-blue-500 hidden group-hover:block transition-all duration-200 ">
             </div>
           </li>
         </ul>
 
-        <div class="flex gap-8">
-          <img src="/images/india-flag.svg" alt="" width="28px" height="20px " />
+        <div class="flex gap-8 ">
+          <img src="/images/india-flag.svg" alt="" width="28px" height="20px " class="hidden lg:block" />
 
           <button class="py-3 px-5 text-white border border-sky-300 rounded-md font-bold flex">
             Log in
           </button>
           <button
-            class="py-3 px-4 text-blue border border-sky-300 rounded-md font-bold bg-white transition-all duration-200 hover:text-blue-500">
+            class="py-3 px-4 text-blue border border-sky-300 rounded-md font-bold bg-white transition-all duration-200 hover:text-blue-500 hidden lg:flex ">
             Sign up <i class="fa-light fa-arrow-right"></i>
           </button>
         </div>
@@ -206,12 +206,12 @@
             </ul>
 
             <!-- button and hyperlink -->
-            <div class="flex flex-row items-center space-x-4 ">
+            <div class="flex flex-col-reverse md:flex-row items-center space-x-4  ">
               <button
-                class=" flex gap-2 bg-blue-500 w-fit text-white px-5 py-3 rounded-md font-bold hover:bg-blue-900 transition-all duration-200 cursor-pointer">Sign
+                class=" flex gap-2 bg-blue-500 w-full md:w-fit text-white px-5 py-3 rounded-md font-bold hover:bg-blue-900 transition-all duration-200 cursor-pointer ">Sign
                 up now <p>&#8594</p></button>
               <!-- hyperlink -->
-              <div class="flex items-center cursor-pointer group">
+              <div class="flex self-start md:items-center cursor-pointer group">
                 <a href="#" class=" flex gap-2 font-bold text-blue-500
                  group-hover:text-gray-600 transition-all div">Know more <p>&#8680</p></a>
                 <i></i>
@@ -220,7 +220,8 @@
 
 
           </div>
-          <img src="/images/payment-suite.png" alt="" class="max-w-[600px] absolute right-0 bottom-0">
+          <img src="/images/payment-suite.png" alt="" class="max-w-[600px] absolute right-0 bottom-0 hidden 
+          md:max-w-[400px] lg:max-w-[600px] md:block lg:block">
         </div>
 
         <div class="w-full grid grid-cols-3 gap-4 mt-10">
