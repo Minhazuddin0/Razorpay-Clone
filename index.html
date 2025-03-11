@@ -160,7 +160,9 @@
 
       <div class="relative w-11/12 max-w-[1080px] mx-auto pt-4">
         <!-- heading -->
-        <h2 class="text-center text-2xl leading-[1.2] font-bold">Accept payment with razorpay payment suite</h2>
+        <h2 class="text-center text-2xl leading-[1.2] font-bold hidden md:block">Accept payment with razorpay payment suite</h2>
+        <h2 class="text-center text-4xl leading-[1.2] font-bold  md:hidden">Explore razorpay payment suite</h2>
+
         <div class="w-6 h-1 bg-green-400 mx-auto mt-4 mb-6"></div>
 
         <!-- content box -->
@@ -224,7 +226,7 @@
           md:max-w-[400px] lg:max-w-[600px] md:block lg:block">
         </div>
 
-        <div class="w-full grid grid-cols-3 gap-4 mt-10">
+        <div class="w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mt-10">
           <!-- box1 -->
           <div class="w-full min-h-[15rem] relative cursor-pointer " id="imagehover">
             <img src="/images/payment-link-icon.svg" alt="" class="bg-blue-500 absolute right-3 top-3 w-12 h-12 rounded-full z-[8]
@@ -524,9 +526,9 @@
               </ul>
 
               <!-- button and hyperlink -->
-              <div class="flex flex-row items-center space-x-4 w-full ">
+              <div class="flex flex-col-reverse md:flex-row items-center space-x-4 w-full  ">
                 <button
-                  class="relative bg-blue-500 flex items-center justify-start text-white py-[14px] px-[18px] md:pr-[90px] rounded-md font-bold hover:bg-blue-900 transition-all duration-200">Sign
+                  class="relative bg-blue-500 flex items-center justify-start text-white py-[14px] px-[18px] md:pr-[90px] rounded-md font-bold hover:bg-blue-900 transition-all duration-200 self-stretch md:w-fit">Sign
                   up
 
                   <div
@@ -545,7 +547,8 @@
 
 
             </div>
-            <img src="/images/buisness-banking.png" alt="" class="max-w-[500px] absolute right-0 bottom-0 ">
+            <img src="/images/buisness-banking.png" alt="" class="max-w-[500px] absolute right-0 bottom-0
+            hidden md:max-w-[400px] lg:max-w-[600px] md:block lg:block ">
           </div>
 
           <!-- card box -->
